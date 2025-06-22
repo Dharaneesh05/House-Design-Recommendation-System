@@ -1,55 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>House Design Recommendation System</title>
-  <style>
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 20px;
-      line-height: 1.6;
-      color: #24292e;
-    }
-    h1, h2, h3 {
-      border-bottom: 1px solid #eaecef;
-      padding-bottom: 0.3em;
-    }
-    code {
-      background-color: #f6f8fa;
-      padding: 2px 4px;
-      border-radius: 3px;
-      font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
-    }
-    pre {
-      background-color: #f6f8fa;
-      padding: 16px;
-      border-radius: 3px;
-      overflow-x: auto;
-    }
-    pre code {
-      background: none;
-      padding: 0;
-    }
-    ul {
-      padding-left: 20px;
-    }
-    a {
-      color: #0366d6;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    .highlight {
-      color: #d73a49;
-    }
-  </style>
-</head>
-<body>
-  <h1>House Design Recommendation System</h1>
+<h1>House Design Recommendation System</h1>
 
   <h2>Introduction</h2>
   <p>The House Design Recommendation System is a web-based application that recommends 3D house models tailored to user preferences, such as architectural style, layout, size, or location. Built using a combination of Plask for motion capture, machine learning for personalized recommendations, Leaflet.js for interactive location-based maps, and Blender for creating high-quality 3D house models, this project offers an immersive experience for users to visualize and explore their ideal home designs. The system analyzes user inputs and preferences to suggest 3D models that align with their needs, enhancing decision-making in home design or real estate.</p>
@@ -87,7 +36,7 @@ cd House-Design-Recommendation-System</code></pre>
       <p>Create a <code>.env</code> file in the <code>server</code> folder with the following:</p>
       <pre><code>PORT=5000
 MONGODB_URI=mongodb://localhost:27017/house_recommendation
-PLASK_API_KEY=your_plask_api_key
+FLASK_API_KEY=your_flask_api_key
 </code></pre>
       <p>Replace <code>your_plask_api_key</code> with your Plask API key (if applicable).</p>
     </li>
