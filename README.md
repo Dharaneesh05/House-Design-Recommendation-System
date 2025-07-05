@@ -125,27 +125,6 @@ pip install -r requirements.txt</code></pre>
     </li>
   </ol>
 
-  <h2>Project Structure</h2>
-  <pre><code>House-Design-Recommendation-System/
-├── client/                    # Frontend (JavaScript, Leaflet.js, Three.js)
-│   ├── public/
-│   │   └── models/            # 3D house models (.glTF, .OBJ)
-│   ├── src/
-│   │   ├── components/        # Reusable components (Map, 3DViewer, etc.)
-│   │   ├── pages/             # Pages (Home, Preferences, Results)
-│   │   └── App.js             # Main application
-├── server/                    # Backend (Node.js, Express.js)
-│   ├── models/                # Mongoose schemas (House, UserPreference)
-│   ├── routes/                # API routes (houses, recommendations)
-│   ├── index.js               # Main server file
-│   └── .env                   # Environment variables
-├── ml/                        # Machine learning scripts (Python)
-│   ├── train_model.py         # Training script for recommendation model
-│   └── requirements.txt       # Python dependencies
-├── blender/                   # Blender project files for 3D models
-└── README.html                # Project documentation
-</code></pre>
-
   <h2>API Endpoints</h2>
   <ul>
     <li><strong>GET /api/houses</strong>: Fetch all house models with filters (e.g., style, location).</li>
